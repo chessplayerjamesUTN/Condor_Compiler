@@ -1,0 +1,31 @@
+función nada pasa(decimal promedio):
+	si (promedio >= 7):
+		escribir("Sí pasa")
+	fin
+	sinosi(promedio >= 5):
+		escribir("No pasa pero sí llega a supletorio")
+	fin
+	sino:
+		escribir("No pasa ni llega a supletorio")
+	fin
+	leer()
+fin
+
+escribir("Ingrese la cantidad de notas a calcular:")
+entero cantidadNotas = convertirEnt(leer())
+decimal notas[cantidadNotas]
+decimal suma = 0, promedio = 0
+texto notasTexto = ""
+para(ent índice = 0; índice < cantidadNotas; índice++):
+	escribir("Ingrese la nota #" + (índice + 1) + ":")
+	notas[índice] = convertirDec(leer())
+	suma = suma + notas[índice]
+	notasTexto = notasTexto + notas[índice] + "\n"
+fin
+promedio = suma / cantidadNotas
+escribir("Suma: " + suma)
+escribir("Promedio: " + promedio)
+pasa(promedio)
+escribirtexto(notasTexto, "misNotas.txt")
+
+fin

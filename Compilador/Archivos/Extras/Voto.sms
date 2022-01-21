@@ -1,0 +1,12 @@
+entero edad = convertir(leer()) + 0
+si (edad < 16):
+	escribir("no puede votar")
+fin 
+sinosi (edad < 18):
+	escribir("voto opcional")
+fin
+sino:
+	escribir("voto obligatorio")
+fin
+leer()
+fin 

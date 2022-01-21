@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BF4269D-9848-4410-BB63-56C9DDD2A53F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Compilador</RootNamespace>
+    <AssemblyName>Compilador</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Install\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>46</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Debug\Compilador.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C496E09AB2D6903191BAF7AD3E4308771392B8FC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Compilador_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ScintillaNET, Version=3.6.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jacobslusser.ScintillaNET.3.6.3\lib\net40\ScintillaNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Executor.cs" />
+    <Compile Include="VariableSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VariableSelection.Designer.cs">
+      <DependentUpon>VariableSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Content Include="Archivos\Game1.cs" />
+    <Content Include="Archivos\TreeApp\TreeApp\bin\Debug\respuesta.txt" />
+    <Content Include="Archivos\TreeApp\TreeApp\bin\Debug\TreeApp.exe" />
+    <Content Include="Archivos\TreeApp\TreeApp\bin\Debug\TreeApp.pdb" />
+    <Content Include="Archivos\TreeApp\TreeApp\Form1 - Copy.cs" />
+    <Content Include="Archivos\TreeApp\TreeApp\Form1 2021-08-06 02_59_30.cs" />
+    <Content Include="Archivos\TreeApp\TreeApp\Form1.cs" />
+    <Content Include="Archivos\TreeApp\TreeApp\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Content>
+    <Content Include="Archivos\TreeApp\TreeApp\Program.cs" />
+    <Content Include="Archivos\TreeApp\TreeApp\Properties\AssemblyInfo.cs" />
+    <Content Include="Archivos\TreeApp\TreeApp\Properties\Resources.Designer.cs" />
+    <Content Include="Archivos\TreeApp\TreeApp\Properties\Settings.Designer.cs" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\test.png" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\test2.png" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\WindowsGame1Content %282%29.contentproj" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\WindowsGame1Content.contentproj" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\test.xnb" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Game1 - Copy.cs" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Game1.cs" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Program.cs" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Automaton.cs" />
+    <Compile Include="Classes\DataBaseConnection.cs" />
+    <Compile Include="Classes\Email.cs" />
+    <Compile Include="Classes\Error.cs" />
+    <Compile Include="Classes\Keyword.cs" />
+    <Compile Include="Classes\LALR.cs" />
+    <Compile Include="Classes\Lexeme.cs" />
+    <Compile Include="Classes\LexicalAnalyzer.cs" />
+    <Compile Include="Classes\Rule.cs" />
+    <Compile Include="Classes\Semantic.cs" />
+    <Compile Include="Classes\Symbol.cs" />
+    <Compile Include="Classes\Token.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Name.Designer.cs">
+      <DependentUpon>Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TemplateSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemplateSelector.Designer.cs">
+      <DependentUpon>TemplateSelector.cs</DependentUpon>
+    </Compile>
+    <Content Include="Archivos\TreeApp\TreeApp\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Content>
+    <Content Include="Archivos\TreeApp\TreeApp\Properties\Resources.resx" />
+    <Content Include="car1.png" />
+    <Content Include="car2.png" />
+    <Content Include="car3.png" />
+    <Content Include="car4.png" />
+    <Content Include="Icon.ico" />
+    <Content Include="update.xml" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Name.resx">
+      <DependentUpon>Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TemplateSelector.resx">
+      <DependentUpon>TemplateSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VariableSelection.resx">
+      <DependentUpon>VariableSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <Content Include="Archivos\EstadosTransición.json" />
+    <Content Include="Archivos\Keywords.csv" />
+    <Content Include="Archivos\LALR1.csv" />
+    <Content Include="Archivos\LALR2.csv" />
+    <Content Include="Archivos\Lexemes.csv" />
+    <Content Include="Archivos\Rules.csv" />
+    <Content Include="Archivos\TreeApp\TreeApp\Properties\Settings.settings" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\WindowsGame1.csproj.Debug.cachefile" />
+    <None Include="app.manifest" />
+    <Content Include="Archivos\Extras\1.sms" />
+    <Content Include="Archivos\Extras\2.sms" />
+    <Content Include="Archivos\Extras\3.sms" />
+    <Content Include="Archivos\Extras\Beep.sms" />
+    <Content Include="Archivos\Extras\Draw4.sms" />
+    <Content Include="Archivos\Extras\Draw5.sms" />
+    <Content Include="Archivos\Extras\Fibonacci.sms" />
+    <Content Include="Archivos\Extras\FuncionPartes.sms" />
+    <Content Include="Archivos\Extras\Manual 1 - Conociendo el Editor.pdf" />
+    <Content Include="Archivos\Extras\Manual 2 - Conociendo el lenguaje.pdf" />
+    <Content Include="Archivos\Extras\Sort.sms" />
+    <Content Include="Archivos\Extras\Voto.sms" />
+    <Content Include="Archivos\Extras\Ejercicios.pdf" />
+    <None Include="Compilador_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Archivos\Errors.txt" />
+    <Content Include="Archivos\options.txt" />
+    <Content Include="Archivos\TreeApp\TreeApp.sln" />
+    <Content Include="Archivos\TreeApp\TreeApp\TreeApp.csproj" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1.sln" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Game.ico" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\GameThumbnail.png" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.dll" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.Game.dll" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.GamerServices.dll" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.Graphics.dll" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.Input.Touch.dll" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Program.exe" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\WindowsGame1.csproj" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\WindowsGame1.exe" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\test.txt" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb" />
+    <Content Include="Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\dot.png" />
+    <Content Include="dot.png" />
+    <Content Include="Imágenes\open.png" />
+    <Content Include="Imágenes\run.png" />
+    <Content Include="Imágenes\save.png" />
+    <Content Include="Imágenes\scan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharpUpdate\SharpUpdate.csproj">
+      <Project>{4ac04585-638f-4658-b3a7-3b98078a1f51}</Project>
+      <Name>SharpUpdate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

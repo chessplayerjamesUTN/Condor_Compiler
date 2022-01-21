@@ -1,0 +1,16 @@
+funcion entero Fibonacci(entero a, entero b, entero contador):
+	entero c = a + b
+	contador--
+	si (contador > 0):
+		c = Fibonacci(b,c,contador)
+	fin
+	retornar (c)
+fin
+
+texto número = leer()
+entero contador = convertirEnt(número)
+entero respuesta = Fibonacci(1,1,contador)
+escribirtexto(respuesta,"respuesta.txt")
+escribir(respuesta)
+leer()
+fin 

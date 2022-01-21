@@ -1,0 +1,49 @@
+funcion entero sumarVelocidad(entero coordenada, entero direccion):
+	si (direccion == 1 | direccion == 2):
+		retornar(coordenada + azar(1, 35))
+	fin
+	sino:
+		retornar(coordenada - azar(10, 15))
+	fin
+fin
+
+textura auto
+entero x, y, bordeMínimo, bordeMáximo, direccion
+auto = leerras("car1.png")
+x = 25
+y = 25
+bordeMínimo = 25
+bordeMáximo = 400
+direccion = 1
+fin
+ 
+dibujar:
+	dibujarras(auto, x, y, blanco)
+	si (direccion == 1):
+		x = sumarVelocidad(x, direccion)
+		si(x >= bordeMáximo):
+			direccion = 2
+		fin
+	fin
+	sinosi(direccion == 2):
+		y++
+		y = sumarVelocidad(y, direccion)
+		si(y >= bordeMáximo):
+			direccion = 3
+		fin
+	fin
+	sinosi(direccion == 3):
+		x--
+		x = sumarVelocidad(x, direccion)
+		si (x <= bordeMínimo):
+			direccion = 4
+		fin
+	fin
+	sino:
+		y--
+		y = sumarVelocidad(y, direccion)
+		si(y <= bordeMínimo):
+			direccion = 1
+		fin
+	fin
+fin 

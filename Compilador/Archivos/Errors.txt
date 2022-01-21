@@ -1,0 +1,79 @@
+200	Ha escrito un símbolo inicial no válido (como punto, raya baja, etc.).  Póngalo en el contexto correcto, o elimínelo.
+205	Ha escrito una comilla simple seguida por otra.  Debe insertar otro símbolo entre ambas comillas.
+212	Empezó a escribir un número decimal, pero no lo completó.  Elimine el punto o termínele con un dígito.
+213	Abrió una comilla simple.  Debe existir exactamente un carácter y otra comilla simple después de la primera.
+214	Empezó a escribir un número decimal (positivo o negativo), pero no lo completó.  Elimine el punto o termínele con un dígito.
+301	Token inicial inválido.  Puede empezar con: función, identificador, tipo de dato, si, selección, mientras, hacer, repetir, para, intentar.
+302	Se espera el final del código.  No debe haber más.
+303	Token intermedio encontrado.  Se espera el inicio de una nueva instrucción.
+304	Se espera: la sección dibujar, el final del código.Tokens intermedios encontrados después de fin.
+305	Se espera: una nueva línea.Otro token hallado.
+306	Se espera: un tipo de dato.  Se encontró otro token.
+307	Se espera: el nombre de un identificador.Otro token hallado.
+308	Se espera: (, [, =, ++, --.Se encontró otro token.
+309	Se espera: (.  Se encontró otro token.
+310	Se espera: :.Otro token hallado.
+311	Se espera: el inicio de una nueva sentencia, fin.Tokens intermedios hallados.
+312	Se espera: nueva línea, coma, [, =.Otro token encontrado.
+313	Se espera: nueva línea, coma.Se encontró otro token.
+314	Se espera: identificador, (, !, verdad, falso, literal, predeterminado.Otro token hallado.
+315	Se espera: ), fin de línea.Se encontró otro token.
+316	Se espera: identificador, (, ), literal.Otro token hallado.
+317	Se espera: identificador, (, literal.Otro token hallado.
+318	Se espera: identificador, tipo de dato, ;.Otro token hallado.
+319	Se esperaba cualquier token excepto: :, [, ], =, ++, --, !, operador aritmético, operador relacional.
+320	Se espera: ), fin de línea, coma, +, -, operador relacional, ;.Se encontró otro token.
+321	Se espera: ), fin de línea, coma, ;.Otro token hallado.
+322	Se espera: ), fin de línea, coma, fin, ], cualquier tipo de operador, ;.Se encontró otro token.
+323	Se espera: ), fin de línea, coma, operador lógico, ;.Otro token hallado.
+324	Se espera: identificador, (, verdad, falso, literal, predeterminado.Se encontró otro token.
+325	Se espera: (, ), fin de línea, coma, fin, [, ], cualquier tipo de operador, ;.Otro token hallado.
+326	Se espera: ), fin de línea, coma, fin, operador lógico, ;.Se encontró otro token.
+327	Se espera: ).Otro token hallado.
+328	Se espera: ), coma, ], +, -.Se encontró otro token.
+329	Se espera: ].Se encontró otro token.
+330	Se espera: +, -, operador relacional.Otro token hallado.
+331	Se espera: identificador, (, !, verdad, falso, literal, predeterminado, ;.Se encontró otro token.
+332	Se espera: ;.Otro token hallado.
+333	Se espera: ), +, -.Se encontró otro token.
+334	Se espera: ), tipo de dato.Otro token hallado.
+335	Se espera: fin de línea, coma, =.Otro token hallado.
+336	Se espera: un operador lógico.Se encontró otro token.
+337	Se espera: ), +, -, operador relacional.Otro token hallado.
+338	Se espera: =.Otro token hallado.
+339	Se espera: while.Se encontró otro token.
+340	Se espera: bloque error.Se encontró otro token.
+341	Se espera: ), coma.Otro token hallado.
+342	Se espera: ), fin de línea, coma, fin, +, -, operador lógico, ;.Se encontró otro token.
+343	Se espera: ), ].Otro token hallado.
+344	Se espera: (, ), [, =, ++, --, operador aritmético.Se encontró otro token.
+345	Se espera: fin de línea, +, -, operador relacional.Se encontró otro token.
+346	Se espera: caso.Otro token hallado.
+347	Se espera: fin de línea, sinosi, sino.Se encontró otro token.
+348	Se espera: fin.Token intermedio hallado.
+349	Se espera: identificador, (, fin, verdad, falso, literal, caso, predeterminado.Otro token hallado.
+350	Se espera: literal.Se encontró otro token.
+401	El token y operador usados no son compatibles con el tipo entero.
+402	El token y operador usados no son compatibles con el tipo decimal.
+403	El token y operador usados no son compatibles con el tipo texto.
+404	El token y operador usados no son compatibles con el tipo carácter.
+405	El token y operador usados no son compatibles con el tipo lógico.
+406	El token y operador usados no son compatibles con el tipo textura.
+407	El token y operador usados no son compatibles con el tipo color.
+408	El token y operador usados no son compatibles con el tipo nulo.
+409	Error inesperado de tipos de datos.
+410	Las expresiones ingresadas para el arreglo deben ser de tipo entero.
+411	Uso de variable antes de su declaración.
+412	Las dimensiones del arreglo no cuadran.
+413	La expresión ingresada para repetir deben ser de tipo entero.
+414	Los argumentos ingresados no cuadran con los parámetros permitidos de la función.
+415	Función no declarada.
+416	Tipo de retorno incorrecto.
+417	Expresión inválida.  Para usar una expresión en una sentencia para, incluya el nombre de variable en la asignación inicial.
+418	No funciona la depuración con modo de dibujo.
+501	Error en la creación del arreglo.
+502	División para cero.
+503	Acceso a índice inexistente del arreglo.
+504	Un valor incorrecto fue ingresado a la función.
+505	Archivo inexistente (error E/S).
+601	Error no encontrado.

@@ -1,0 +1,14 @@
+escribir("Frequencia\tDuración")
+entero frecuencia, duracion
+para (ent índice = 0; índice < 10; índice++):
+	frecuencia = índice * 100 + 110
+	duracion = índice * 90 + 90
+	escribir(frecuencia + "\t\t" + duracion)
+
+	sonido(frecuencia, duracion)
+
+fin
+
+leer()
+
+fin

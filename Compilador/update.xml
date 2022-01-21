@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<sharpUpdate>
+  <update appId="TestApp">
+    <version>1.0.1.0</version>
+    <url>https://utneduec-my.sharepoint.com/:u:/g/personal/jwscarberry_utn_edu_ec/EYED_9HEdJhIpKzWs2aXTSEBgxm05OymWsJLo0owBXSuVQ?download=1</url>
+    <fileName>Compilador.exe</fileName>
+    <md5></md5>
+    <description>InitialUpdate</description>
+    <launchArgs></launchArgs>
+  </update>
+</sharpUpdate>

@@ -1,0 +1,30 @@
+textura pixel
+pixel = leerras(".\\dot.png")
+color colores[8]
+colores[0] = amarillo
+colores[1] = azul
+colores[2] = blanco
+colores[3] = celeste
+colores[4] = negro
+colores[5] = rojo
+colores[6] = rosado
+colores[7] = verde
+entero dimension
+dimension = 600
+entero tabla[600,600]
+para(entero índice1 = 0; índice1 < dimension; índice1++):
+	para(entero índice2 = 0; índice2 < dimension; índice2++):
+		tabla[índice1, índice2] = azar(0, 9)
+	fin
+fin
+fin 
+
+dibujar:
+	para(entero índice1 = 0; índice1 < dimension; índice1++):
+		para(entero índice2 = 0; índice2 < dimension; índice2++):
+			si (tabla[índice1, índice2] < 8):
+				dibujarras(pixel, índice1, índice2, colores[tabla[índice1, índice2]])
+			fin
+		fin
+	fin
+fin 

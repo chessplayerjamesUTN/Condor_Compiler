@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AssemblyInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Properties\AssemblyInfo.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="AssemblyInfo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Properties\AssemblyInfo.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Beep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Beep.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="car1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\car1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\car2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\car3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\car4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\dot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\dot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Draw4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Draw4.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Draw5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Draw5.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ejercicios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Ejercicios.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Errors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Errors.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Errors1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Errors.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="EstadosTransición" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\EstadosTransición.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Fibonacci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Fibonacci.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Form1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Form1.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Form11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Form1.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Form1_2021_08_06_02_59_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Form1 2021-08-06 02_59_30.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Form1_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Form1.Designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Form1___Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Form1 - Copy.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FuncionPartes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\FuncionPartes.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Game.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Game1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Game1.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Game11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Game1.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Game1___Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Game1 - Copy.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Game2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Game.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameThumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\GameThumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameThumbnail1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\GameThumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Keywords" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Keywords.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="LALR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\LALR1.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="LALR2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\LALR2.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Lexemes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Lexemes.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Manual_1___Conociendo_el_Editor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Manual 1 - Conociendo el Editor.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Manual_2___Conociendo_el_lenguaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Manual 2 - Conociendo el lenguaje.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Microsoft_Xna_Framework" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Microsoft_Xna_Framework_Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.Game.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Microsoft_Xna_Framework_GamerServices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.GamerServices.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Microsoft_Xna_Framework_Graphics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.Graphics.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Microsoft_Xna_Framework_Input_Touch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Microsoft.Xna.Framework.Input.Touch.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="options" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\options.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="options1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\options.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Program" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Program.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Program1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Program.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Program2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\Program.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Resources" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Properties\Resources.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Resources_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Properties\Resources.Designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="respuesta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\bin\Debug\respuesta.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Rules" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Rules.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Properties\Settings.settings;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Settings_Designer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\Properties\Settings.Designer.cs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Sort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Sort.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\test.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="test1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\test.xnb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="test2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\test.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="test21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\test2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp.sln;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TreeApp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\TreeApp.csproj;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="TreeApp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\bin\Debug\TreeApp.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TreeApp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\TreeApp\TreeApp\bin\Debug\TreeApp.pdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Voto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\Voto.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsGame1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1.sln;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsGame11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\WindowsGame1.csproj;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="WindowsGame12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\WindowsGame1.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsGame13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsGame14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsGame1Content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\WindowsGame1Content.contentproj;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsGame1Content__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1Content\WindowsGame1Content (2).contentproj;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsGame1_csproj_Debug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\WindowsGame1\WindowsGame1\WindowsGame1\WindowsGame1.csproj.Debug.cachefile;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\1.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\2.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Archivos\Extras\3.sms;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

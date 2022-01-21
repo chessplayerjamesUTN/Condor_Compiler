@@ -1,0 +1,44 @@
+escribir("Ingrese su nombre por favor:")
+texto nombre = leer()
+escribir("Hola " + nombre + "!")
+escribir("Ingrese su edad:")
+entero edad = convertirEnt(leer())
+escribir("Ingrese su peso en kilogramos:")
+decimal peso = convertirDec(leer())
+escribir("Ingrese su estatura en centímetros:")
+decimal estatura = convertirDec(leer())
+caracter genero
+hacer:
+	escribir("Ingrese M si es mujer, o H si es hombre:")	
+	género = convertirCar(leer())
+	logico esMujer
+	si (género == 'M' | género == 'm'):
+		esMujer = verdad
+	fin 
+	sinosi(género == 'H' | género == 'h'):
+		esMujer = falso
+	fin
+	sino:
+		escribir("Opción no reconocida")
+	fin
+fin mientras (género != 'M' & género != 'm' & género != 'H' & género != 'h')
+
+si (edad < 16):
+	escribir("No tiene edad suficiente para sufragar")
+fin
+sinosi(edad < 18):
+	escribir("En su caso, el voto es opcional")
+fin
+sino:
+	escribir("El sufragio es obligatorio en su caso")
+fin
+
+escribir("Su índice de masa corporal es:")
+escribir(peso / ((estatura / 100) ^ 2))
+
+para(entero índice = longitud(nombre) - 1; índice>= 0; índice--):
+	escribir(nombre[índice])
+fin
+
+leer()
+fin

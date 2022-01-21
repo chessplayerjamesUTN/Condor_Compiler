@@ -1,0 +1,21 @@
+entero cantidadNúmeros = 10
+entero vector [cantidadNúmeros]
+para (ent índice = 0; índice < cantidadNúmeros; índice++):
+	vector[índice] = azar()
+	escribir(vector[índice])
+fin
+para (ent índice1 = 0; índice1 < cantidadNúmeros - 1; índice1++):
+	para (ent índice2 = índice1+ 1; índice2 < cantidadNúmeros; índice2++):
+		si (vector[índice1] > vector[índice2]):
+			ent temp = vector[índice1]
+			vector[índice1] = vector[índice2]
+			vector[índice2] = temp
+		fin
+	fin
+fin
+escribir("\n")
+para (ent índice = 0; índice < cantidadNúmeros; índice++):
+	escribir(vector[índice])
+fin
+leer()
+fin 

@@ -1,0 +1,41 @@
+ // No Modificar esta función
+funcion decimal ConvertirNum(decimal num):
+	retornar ((num - (tamaño / 2.0)) / divisor)
+fin
+
+//No modificar esta función
+funcion entero Multiply(decimal num):
+	retornar((convertirEnt(num * divisor) + convertirEnt(tamaño / 2) + 0))
+fin 
+
+//Modifique esta función
+funcion decimal Partes(decimal num): 
+	si(num < -1):
+		retornar((potencia(num, 2) * -1 + 3) * -1)
+	fin
+	sinosi(num == -1):
+		retornar((1.36) * -1)
+	fin
+	sinosi(num < 2):
+		retornar((potencia(num, 2)) * -1)
+	fin
+	sino:
+		retornar((num * -1 + 4) * -1)
+	fin	
+fin
+
+
+textura pixel
+entero tamaño, divisor
+tamaño = 600
+divisor = 25
+pixel = leerras("dot.png")
+fin 
+
+dibujar:
+	para(decimal i = 0; i < tamaño; i = i + 0.1):
+		dibujarras(pixel, tamaño / 2, convertir(i) + 0, negro)
+		dibujarras(pixel, convertir(i) + 0, tamaño / 2, negro)
+		dibujarras(pixel, convertir(i) + 0, Multiply(Partes(ConvertirNum(i))), rojo)
+	fin
+fin 

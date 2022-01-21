@@ -1,0 +1,39 @@
+ // No Modificar esta función
+funcion decimal ConvertirNum(decimal num):
+	retornar ((num - (dimension / 2.0)) / divisor)
+fin
+
+//No modificar esta función
+funcion entero Multiply(decimal num):
+	retornar((convertirEnt(num * divisor) + convertirEnt(dimension / 2) + 0))
+fin
+
+funcion decimal Tangente(decimal num):
+	retornar (tan(num)*-1)
+fin
+
+funcion decimal Seno(decimal num):
+	retornar (sen(num)*-1)
+fin
+
+funcion decimal Coseno(decimal num):
+	retornar (cos(num)*-1)
+fin
+
+
+textura pixel
+entero dimension, divisor
+dimension = 600
+divisor = 25
+pixel = leerras("dot.png")
+fin 
+
+dibujar:
+	para(decimal i = 0; i < dimension; i = i + 0.025):
+		dibujarras(pixel, dimension / 2, i, negro) //Eje Y
+		dibujarras(pixel, i, dimension / 2, negro) //Eje X
+		dibujarras(pixel, i, Multiply(Tangente(ConvertirNum(i))), rojo) //Función Tangente
+		dibujarras(pixel, i, Multiply(Seno(ConvertirNum(i))), amarillo)  //Función Seno
+		dibujarras(pixel, i, Multiply(Coseno(ConvertirNum(i))), azul)    //Función Coseno
+	fin
+fin 
