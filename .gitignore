@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#Ignore Data Base Connection and Email Connection
+Compilador/Classes/DataBaseConnection.cs
+Compilador/Classes/Email.cs
