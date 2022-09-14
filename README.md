@@ -27,7 +27,7 @@ Condor Compiler is a Windows Forms project that converts code written in a new, 
 
 ![image](https://user-images.githubusercontent.com/57734444/190205959-e0187fb9-7782-43f9-aab7-41301932ad37.png)
 
-- **Multimedia programming language** - sounds, images, and drawing
+- **Multimedia programming language** - sounds, images, and colors
 
 ![image](https://user-images.githubusercontent.com/57734444/190206527-e707e209-960b-4e5b-9035-c281eb7bea45.png)
 
