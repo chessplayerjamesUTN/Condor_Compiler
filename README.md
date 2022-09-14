@@ -52,3 +52,13 @@ Code is compiled in a single pass.  A bottom-up LALR parser is used.
 ## Future Improvements
 - Translation of reserved words for other natural languages (Italian, German, French, etc.)
 - Inclusion of mouse and keyboard detection for quick game development
+
+## Publication (Thesis)
+[Thesis](http://repositorio.utn.edu.ec/bitstream/123456789/12112/2/04%20ISC%20608%20TRABAJO%20GRADO.pdf)
+
+### English Abstract
+It is thought that high-school students in Ecuador can understand the subject of programming better when learning it in their native language, in this case using words in Spanish.  With the high rate of students that fail programming courses or that drop out of the Computer Systems Engineering and Software Engineering majors in the FICA faculty of the UTN university, it has been concluded that there is a necessity of a better previous understanding of these subjects (programming and formal language theory).
+
+To accomplish this goal, after extensive literature review, a compiler was developed for a new programming language with a simple lexicon and grammar.  The lexicon’s reserved words are in Spanish to eliminate the language barrier during the initial learning process.  There are also multimedia functionalities to increase interest and close the gender gap that exists in the computer science field.  The compiler was evaluated by user tests and surveys.
+
+Among the people that tried the compiler, 63% of the compilations were correct.  The quality characteristics of the compiler, efficiency and functional correctness, were within tolerable levels.  According to the survey’s data, using Condor Compiler could serve as a starting point in learning programming and even to increase the interest in it.
