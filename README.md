@@ -52,6 +52,9 @@ Code is compiled in a single pass.  A bottom-up LALR parser is used.
 ## Future Improvements
 - Translation of reserved words for other natural languages (Italian, German, French, etc.)
 - Inclusion of mouse and keyboard detection for quick game development
+- Better error detection messages
+- Better error recovery techniques
+- More efficient compilation process (resource optimization, reading source template files once instead of multiple times, reduce the arbitrary 500ms wait time between compilation to C# and compilation to .exe, etc.)
 
 ## Publication (Thesis)
 [Thesis](http://repositorio.utn.edu.ec/bitstream/123456789/12112/2/04%20ISC%20608%20TRABAJO%20GRADO.pdf)
