@@ -56,7 +56,7 @@ Code is compiled in a single pass.  A bottom-up LALR parser is used.
 ## Publication (Thesis)
 [Thesis](http://repositorio.utn.edu.ec/bitstream/123456789/12112/2/04%20ISC%20608%20TRABAJO%20GRADO.pdf)
 
-### English Abstract
+### Abstract
 It is thought that high-school students in Ecuador can understand the subject of programming better when learning it in their native language, in this case using words in Spanish.  With the high rate of students that fail programming courses or that drop out of the Computer Systems Engineering and Software Engineering majors in the FICA faculty of the UTN university, it has been concluded that there is a necessity of a better previous understanding of these subjects (programming and formal language theory).
 
 To accomplish this goal, after extensive literature review, a compiler was developed for a new programming language with a simple lexicon and grammar.  The lexicon’s reserved words are in Spanish to eliminate the language barrier during the initial learning process.  There are also multimedia functionalities to increase interest and close the gender gap that exists in the computer science field.  The compiler was evaluated by user tests and surveys.
